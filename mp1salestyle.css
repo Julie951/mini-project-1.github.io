@@ -1,0 +1,151 @@
+/* MP1page 2 mobile view */
+body{
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    overflow-y: scroll;
+}
+.container-fluid img{
+    width: 50%;
+    height: auto;
+}
+  .nav-link:active{
+    text-decoration: underline 1px solid rgb(226, 7, 7);
+}
+.navbar-toggler-icon{
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+}
+.navbar-expand-lg{
+    background-color: #669999;
+    font-family: "Trirong";
+}
+h1{
+    text-align: center;
+    padding: 2px;
+    font-size: 14px;
+}
+.column-1{
+    width: 55%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #243E36;
+    color: white;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+.column-2{
+    margin-bottom: 20px;
+}
+#year1 .column-1{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    margin-top: 100px; 
+}
+.carousel{
+    width: 90%;
+    margin: auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.row{
+    --bs-gutter-x: 0rem;
+}
+
+/* Tablet view */
+@media only screen and (min-width: 768px){
+    .container-fluid img{
+    width: 25%;
+    height: auto;
+    }
+    .navbar-toggler-icon{
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+    }
+    body{
+        margin-right: 0;
+        margin-left: 0;
+        background-color: aliceblue;    
+        background-position: bottom;
+    }
+    h1{
+        text-align: center;
+        padding: 2px;
+        font-size: 20px;
+    }
+    .column-1{
+        width: 30%;
+        margin: auto;
+        border-radius: 5px;
+        background-color: #243E36;
+        color: white;
+        margin-top: 120px;
+        margin-bottom: 20px;
+        padding-top: 10px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    }
+    .column-2{
+        margin-bottom: 30px;
+        width: 75%;
+        margin: auto;
+    }
+    .carousel{
+        width: 100%;
+        margin: auto;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    }
+
+}
+/* Desktop view */
+@media only screen and (min-width: 1024px){
+    .container-fluid img{
+        width: 15%;
+        height: auto;
+    }
+    body{
+        margin-right: 0;
+        margin-left: 0;
+        background-color: aliceblue;    
+        background-position: bottom;
+    }
+    .d-flex{
+        margin-top: 2px ;
+        margin-left: 10px;
+    }
+    h1{
+        text-align: center;
+        padding: 25px;
+        font-size: 30px;
+        margin: auto;
+    }
+    *.column-1{
+        width: 20%;
+        margin: auto;
+        border-radius: 5px;
+        background-color: white;
+        color: black;
+        margin-top: 120px;
+        padding-top: 10px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    }
+    #year1, #year2, #year3, #year4, #year5{
+        display: flex;
+        justify-content: center;
+        padding-top: 110px;
+        margin-bottom: 120px;
+    }
+    #year1 .col-4{
+        width: 20%;
+        margin: auto;
+    }
+    #year .col-8{
+        margin-bottom: 30px;
+        width: 60%;
+        margin: auto;
+    }
+
+}
+
+
+  

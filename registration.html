@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="registrationstyle.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="row justify-content-between mb-4">
+          <div class="col-md-4 text-center">
+            <img src="https://static.wixstatic.com/media/4e794f_76a9a61f82a045d0af311eedaef7eb42~mv2.png/v1/fill/w_478,h_191,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4e794f_76a9a61f82a045d0af311eedaef7eb42~mv2.png" alt="Company Logo">
+          </div>
+          <div class="col-md-8 text-center align-self-center">
+            <h2>Registration Form</h2>
+          </div>
+        </div>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <label for="firstName">First Name</label>
+              <input type="text" class="form-control" id="firstName" name="firstName" >
+            </div>
+            <div class="form-group col-md-4">
+              <label for="middleName">Middle Name</label>
+              <input type="text" class="form-control" id="middleName" name="middleName">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="lastName">Surname</label>
+              <input type="text" class="form-control" id="lastName" name="lastName" >
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="gender">Gender</label>
+              <select class="form-control" id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="email">Email Address</label>
+              <input type="email" class="form-control" id="email" name="email" >
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="employeeId">Employee ID</label>
+              <input type="text" class="form-control" id="employeeId" name="employeeId">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="position">Position</label>
+              <input type="text" class="form-control" id="position" name="position">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" name="password" >
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <a href="index.html">Register</a>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>

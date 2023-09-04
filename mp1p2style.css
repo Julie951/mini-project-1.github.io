@@ -1,0 +1,117 @@
+/* MP1page 2 mobile view */
+.container-fluid img{
+    width: 50%;
+    height: auto;
+}
+  .nav-link:active{
+    text-decoration: underline 1px solid rgb(226, 7, 7);
+}
+.navbar-toggler-icon{
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+}
+.navbar-expand-lg{
+    background-color: #669999;
+    font-family: "Trirong";
+}
+body{
+    margin-right: 0;
+    margin-left: 0;
+    background-image: url('home\ background.jpg');
+    background-position-x: center;
+    background-repeat: repeat-y;
+    width: 100%;
+}
+.row h1{
+    padding: 20px;
+    font-size: 30px;
+    word-spacing: 2px;
+    line-height: 50px;
+    font-family: "Sofia";
+    background: rgba(0, 0, 0, 0.6);
+    color: whitesmoke;
+}
+.row button, a{
+    margin-top: 20px;
+    font-family: "Trirong";
+    text-decoration: none !important;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    
+}
+.row{
+    --bs-gutter-x: 0rem;
+}
+/* Tablet view */
+@media only screen and (min-width: 768px){
+    .container-fluid img{
+    width: 25%;
+    height: auto;
+    }
+    .navbar-toggler-icon{
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+    }
+    .row h1{
+        font-size: 50px;
+        word-spacing: 5px;
+        line-height: 70px;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .row button{
+        margin-top: 30px;
+        width: 55%;
+        font-family: "Trirong";
+    }
+    .row{
+        --bs-gutter-x: 0rem;
+    }
+    body{
+        margin-right: 0;
+        margin-left: 0;
+        background-image: url('home\ background.jpg');
+        background-size: cover;
+    }
+
+}
+/* Desktop view */
+@media only screen and (min-width: 1024px){
+    .container-fluid img{
+        width: 15%;
+        height: auto;
+    }
+    body{
+        margin-right: 0;
+        margin-left: 0;
+        background-image: url('home\ background.jpg');
+        background-size: cover;
+    }
+    .row h1{
+        font-size: 70px;
+        word-spacing: 5px;
+        line-height: 115px;
+        background: rgba(0, 0, 0, 0.1);
+        color: black;
+    }
+    .row button{
+        margin-top: 30px;
+        width: 55%;
+        padding: 10px;
+        font-size: 25px;
+        font-family: "Trirong";
+    }
+    .row{
+        --bs-gutter-x: 0rem;
+    }
+    .d-flex{
+        margin-top: 17px ;
+        margin-left: 10px;
+    }
+
+}
+
+
+  
